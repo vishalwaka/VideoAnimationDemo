@@ -14,6 +14,7 @@
 		BC7D8D972037100600B227BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7D8D952037100600B227BF /* LaunchScreen.storyboard */; };
 		BC7D8DA22037100700B227BF /* VideoAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D8DA12037100700B227BF /* VideoAnimationDemoTests.swift */; };
 		BC7D8DAD2037100700B227BF /* VideoAnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D8DAC2037100700B227BF /* VideoAnimationDemoUITests.swift */; };
+		BC7D8DBB2037116800B227BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D8DBA2037116800B227BF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BC7D8DA82037100700B227BF /* VideoAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7D8DAC2037100700B227BF /* VideoAnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAnimationDemoUITests.swift; sourceTree = "<group>"; };
 		BC7D8DAE2037100700B227BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7D8DBA2037116800B227BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BC7D8D932037100600B227BF /* Assets.xcassets */,
 				BC7D8D952037100600B227BF /* LaunchScreen.storyboard */,
 				BC7D8D982037100600B227BF /* Info.plist */,
+				BC7D8DBA2037116800B227BF /* Constants.swift */,
 			);
 			path = VideoAnimationDemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				BC7D8D8F2037100600B227BF /* ViewController.swift in Sources */,
 				BC7D8D8D2037100600B227BF /* AppDelegate.swift in Sources */,
+				BC7D8DBB2037116800B227BF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
